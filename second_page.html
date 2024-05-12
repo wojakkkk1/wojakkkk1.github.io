@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="button-container">
+        <button id="button1">NFT deal</button>
+        <button id="button2">Token deal</button>
+        <button id="button3">Freelance deal</button>
+    </div>
+
+    <script>
+        // Get references to the buttons
+        var button1 = document.getElementById("button1");
+        var button2 = document.getElementById("button2");
+        var button3 = document.getElementById("button3");
+
+        // Add event listeners to the buttons
+        button1.addEventListener("click", function() {
+            // Redirect to the NFT deal page
+            window.location.href = "nft_deal_page.html";
+        });
+
+        button2.addEventListener("click", function() {
+            // Redirect to the Token deal page
+            window.location.href = "token_deal_page.html";
+        });
+
+        button3.addEventListener("click", function() {
+            // Redirect to the Freelance deal page
+            window.location.href = "freelance_deal_page.html";
+        });
+    </script>
+</body>
+</html>

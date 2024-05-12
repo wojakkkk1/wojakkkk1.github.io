@@ -1,0 +1,76 @@
+body {
+    background-image: url('file:///C:/Users/Ibad/Desktop/Deal%20Protocol/Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 48px;
+    padding: 25px 100px; /* Adjust padding as needed */
+    background-color: #0e2b4b;
+    color: white;
+    border: none;
+    border-radius: 70%; /* Makes the button circular */
+    cursor: pointer;
+}
+
+.wojak-text {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    font-size: 18px;
+}
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+/* style.css */
+
+body {
+    background-image: url('file:///C:/Users/Ibad/Desktop/Deal%20Protocol/Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove underline from hyperlinks and buttons */
+a,
+button {
+    text-decoration: none;
+}
+

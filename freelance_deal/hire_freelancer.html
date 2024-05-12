@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire a Freelancer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('file:///C:/Users/Ibad/Desktop/Deal%20Protocol/Background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: white; /* Set text color to white */
+            text-align: center;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .search-container {
+            margin-bottom: 20px;
+        }
+
+        .search-container input[type=text] {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .search-container button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .invite-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hire a Freelancer</h1>
+
+    <!-- Search bar -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <!-- Freelancer table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Skills</th>
+                <th>Expected Salary (per hour)</th>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Web Development</td>
+                <td>50 USDT</td>
+                <td>John Doe</td>
+                <td><button class="invite-button">Send an Invitation</button></td>
+                <td>4.7</td>
+            </tr>
+            <tr>
+                <td>Graphic Design</td>
+                <td>40 USDT</td>
+                <td>Jane Smith</td>
+                <td><button class="invite-button">Send an Invitation</button></td>
+                <td>4.5</td>
+            </tr>
+            <tr>
+                <td>Content Writing</td>
+                <td>30 USDT</td>
+                <td>Michael Johnson</td>
+                <td><button class="invite-button">Send an Invitation</button></td>
+                <td>4.2</td>
+            </tr>
+            <!-- Add more freelancers as needed -->
+        </tbody>
+    </table>
+
+    <!-- JavaScript for handling search, creating offer, etc. can go here -->
+
+</body>
+</html>

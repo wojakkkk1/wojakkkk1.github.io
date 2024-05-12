@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Recruitment</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('file:///C:/Users/Ibad/Desktop/Deal%20Protocol/Background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            color: white; /* Set text color to white */
+            text-align: center;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .search-container {
+            margin-bottom: 20px;
+        }
+
+        .search-container input[type=text] {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .search-container button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Find a Recruitment</h1>
+
+    <!-- Search bar -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <!-- Filters -->
+    <div>
+        <!-- Add filters here -->
+    </div>
+
+    <!-- Recruitment table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Looking for</th>
+                <th>Budget (USDT)</th>
+                <th>Time</th>
+                <th>Recruiter Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Web Developer</td>
+                <td>2000 USDT</td>
+                <td>3 Day </td>
+                <td>4.5</td>
+            </tr>
+            <tr>
+                <td>Graphic Designer</td>
+                <td>1500 USDT</td>
+                <td>5 Week</td>
+                <td>4.2</td>
+            </tr>
+            <tr>
+                <td>Content Writer</td>
+                <td>1000 USDT</td>
+                <td>1 Week</td>
+                <td>4.0</td>
+            </tr>
+            <tr>
+                <td>Software Engineer</td>
+                <td>3 ETH</td>
+                <td>30 Day</td>
+                <td>4.7</td>
+            </tr>
+            <tr>
+                <td>Marketing Specialist</td>
+                <td>1800 USDT</td>
+                <td>1 Week</td>
+                <td>4.3</td>
+            </tr>
+            <tr>
+                <td>UI/UX Designer</td>
+                <td>2200 USDT</td>
+                <td>15 Days</td>
+                <td>4.6</td>
+            </tr>
+            <tr>
+                <td>Data Scientist</td>
+                <td>2.5 ETH</td>
+                <td>25 Days</td>
+                <td>4.8</td>
+            </tr>
+            <tr>
+                <td>Project Manager</td>
+                <td>2800 USDT</td>
+                <td>1 Month</td>
+                <td>4.9</td>
+            </tr>
+            <tr>
+                <td>Blockchain Developer</td>
+                <td>4 ETH</td>
+                <td>40 Days</td>
+                <td>4.7</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Create a Recruitment button -->
+    <button id="createRecruitmentButton">Create a Recruitment</button>
+
+    <!-- JavaScript for handling search and filtering can go here -->
+
+</body>
+</html>
